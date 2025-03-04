@@ -42,8 +42,8 @@ def plot_stock_percent_increase(stocks):
     plt.show()
 
 def main():
-    # Replace 'stocks.csv' with the path to your CSV file
-    csv_file_path = 'stocks.csv'
+    # Replace 'example.csv' with the path to your CSV file
+    csv_file_path = 'example.csv'
     stocks = read_csv(csv_file_path)
     plot_stock_percent_increase(stocks)
 
